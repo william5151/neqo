@@ -1,0 +1,79 @@
+/* styles.css */
+
+body {
+    background: -webkit-linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    background: linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    background: -webkit-linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    background: linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    border: 2px solid #3d885e;
+    margin-top: 20px;
+}
+
+.card-header {
+    background-color: #58c389;
+    color: #fff;
+    border-bottom: 2px solid #3d885e;
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fffdfd;
+    border: 1px solid #839189;
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+}
+
+select, input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #58c389;
+    color: #fff;
+    border: 2px solid #3d885e;
+    padding: 10px 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4eae77;
+    border: 2px solid #3d885e;
+}
+
+.alert {
+    margin-top: 10px;
+}
+
+.alert-success {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px;
+}
+
+.alert-danger {
+    background-color: #f44336;
+    color: #fff;
+    padding: 10px;
+}
+
+p {
+    margin-top: 10px;
+    color: #f44336;
+}
+

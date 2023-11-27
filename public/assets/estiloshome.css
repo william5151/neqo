@@ -1,0 +1,47 @@
+/* styles.css */
+
+body {
+    background: -webkit-linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    background: linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+}
+
+.card {
+    margin-top: 20px;
+    background: -webkit-linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    background: linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    border: 2px solid #3d885e; /* Añadir borde al card */
+}
+
+.card-header {
+    background-color: #58c389;
+    color: #fff;
+    border-bottom: 2px solid #3d885e; /* Añadir borde al encabezado del card */
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fffdfd;
+    border: 1px solid #839189; /* Añadir borde al cuerpo del card */
+}
+
+.btn-primary {
+    background-color: #58c389;
+    margin-right: 10px;
+    color: #fff;
+    border: 2px solid #3d885e; /* Añadir borde al botón */
+}
+
+.btn-primary:hover {
+    background-color: #4eae77; /* Cambiar color al hacer hover */
+    border: 2px solid #3d885e; /* Cambiar color del borde al hacer hover */
+}
+
+/* Estilos adicionales para las opciones de transacciones bancarias */
+#opcionesTransacciones {
+    margin-top: 10px;
+}
+
+#opcionesTransacciones a {
+    display: block;
+    margin-bottom: 10px;
+}

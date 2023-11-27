@@ -1,0 +1,105 @@
+/* estilotranspro.css */
+
+body {
+    background: -webkit-linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    background: linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    font-family: 'Arial', sans-serif; /* Cambiado para mejorar la legibilidad del texto */
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.card {
+    background: -webkit-linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    background: linear-gradient(to right, #72d69f, #58c389, #5ec88e, #33a667);
+    border: 2px solid #3d885e;
+    margin-top: 20px;
+    border-radius: 10px; /* Nuevo: Añade bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Nuevo: Añade sombra */
+}
+
+.card-header {
+    background-color: #58c389;
+    color: #fff;
+    border-bottom: 2px solid #3d885e;
+    border-radius: 8px 8px 0 0; /* Nuevo: Bordes redondeados solo en la parte superior */
+}
+
+.card-body {
+    padding: 20px;
+    background-color: #fffdfd;
+    border: 1px solid #839189;
+    border-radius: 0 0 8px 8px; /* Nuevo: Bordes redondeados solo en la parte inferior */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    margin-bottom: 5px;
+    color: #000000; /* Nuevo: Cambia el color del texto de las etiquetas */
+    display: block; /* Nuevo: Hace que las etiquetas ocupen todo el ancho del contenedor */
+}
+
+select,
+input {
+    width: 100%;
+    padding: 10px; /* Modificado: Ajusta el espaciado interno */
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #58c389; /* Nuevo: Agrega borde alrededor de los campos de entrada */
+    border-radius: 4px; /* Nuevo: Añade bordes redondeados */
+}
+
+button {
+    background-color: #58c389;
+    color: #fff;
+    border: 2px solid #3d885e;
+    padding: 12px 20px; /* Modificado: Ajusta el espaciado interno */
+    cursor: pointer;
+    border-radius: 4px; /* Nuevo: Añade bordes redondeados */
+}
+
+button:hover {
+    background-color: #4eae77;
+    border: 2px solid #3d885e;
+}
+
+.alert {
+    margin-top: 10px;
+    border-radius: 4px; /* Nuevo: Añade bordes redondeados */
+}
+
+.alert-success {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 12px;
+}
+
+.alert-danger {
+    background-color: #f44336;
+    color: #fff;
+    padding: 12px;
+}
+
+p {
+    margin-top: 10px;
+    color: #f44336;
+}
+
+ul {
+    list-style: none; /* Nuevo: Elimina los puntos de la lista */
+    padding: 0;
+}
+
+li {
+    background-color: #f8f8f8; /* Nuevo: Fondo alternado para mejorar la legibilidad */
+    border: 1px solid #ddd; /* Nuevo: Borde alrededor de cada elemento de la lista */
+    margin-bottom: 10px; /* Nuevo: Espaciado entre elementos de la lista */
+    padding: 15px; /* Nuevo: Ajuste del espaciado interno */
+    border-radius: 4px; /* Nuevo: Bordes redondeados */
+}
+
+
